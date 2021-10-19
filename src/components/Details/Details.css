@@ -1,0 +1,11 @@
+.details{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .details{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{backgroundColor:'#000', textAlign:'center', padding:'20px 0', color:'#fff'}}>
-            <h2>This is footer</h2>
+        <div style={{backgroundColor:'#0D6EFD', textAlign:'center', padding:'50px 0', color:'#fff'}}>
+            <h2>&copy;copyright all right reserved. 2021.</h2>
         </div>
     );
 };

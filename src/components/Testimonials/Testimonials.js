@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Testimonials = () => {
     return (
         <>
-        <h1 class='text-center text-primary mt-5'>Clients Testimonials</h1>
+        <h1 className='text-center text-primary mt-5'>Clients Testimonials</h1>
         <section className='section-testimonials'>
             <div className='overlay'>
                 <Container className='testimonials text-white'>
