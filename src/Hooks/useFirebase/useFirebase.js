@@ -11,11 +11,6 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
-    const setUserName = (name) => {
-        updateProfile(auth.currentUser, {displayName: name})
-        .then(result => {})
-    }
-
     const registrationUsingEmailPassword = (name, email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
@@ -26,6 +21,11 @@ const useFirebase = () => {
         .catch(error => {
             setError(error.message);
         })
+    }
+
+    const setUserName = (name) => {
+        updateProfile(auth.currentUser, {displayName: name})
+        .then(result => {})
     }
 
     const loginUsingEmailPassword = (email, password) => {

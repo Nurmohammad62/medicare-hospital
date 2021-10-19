@@ -26,7 +26,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/news">News</Nav.Link>
                     </Nav>
                     <Navbar.Text>
-                            {user?.email && <span>Welcome, {user?.displayName}</span>}
+                            {user?.email && <span className='text-primary fw-bold'>Welcome, {user?.displayName}</span>}
                         </Navbar.Text>
                         {user?.email ?
                         <Button onClick={logOut} variant="primary">Logout</Button>
