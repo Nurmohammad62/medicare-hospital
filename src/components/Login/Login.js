@@ -31,8 +31,10 @@ const Login = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log(email, password);
-        loginUsingEmailPassword(email, password);
+        loginUsingEmailPassword(email, password)
+        .then(result => {
+            history.push(redirect_uri);
+        })
     }
     return (
         <Container>

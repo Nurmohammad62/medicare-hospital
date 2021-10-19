@@ -19,10 +19,8 @@ const useFirebase = () => {
     const registrationUsingEmailPassword = (name, email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
-            console.log(result.user);
             setUser(result.user);
             setUserName(name);
-            console.log(result.user);
             setError('');
         })
         .catch(error => {
@@ -31,15 +29,10 @@ const useFirebase = () => {
     }
 
     const loginUsingEmailPassword = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-        .then(result => {
-            console.log(result.user);
-            setUser(result.user);
-            setError('');
-        })
+        return (signInWithEmailAndPassword(auth, email, password)
         .catch(error => {
             setError(error.message);
-        })
+        }) );
     }
 
     const signInUsingGoogle = () => {
