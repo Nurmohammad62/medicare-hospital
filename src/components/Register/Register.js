@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth/useAuth';
 
 
 const Register = () => {
-    const {registrationUsingEmailPassword, signInUsingGoogle, error} = useAuth();
+    const {registrationUsingEmailPassword, signInUsingGoogle, error, setError} = useAuth();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const history = useHistory()
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/home';
 
     const handleName = (e) => {
         setName(e.target.value);
@@ -23,7 +27,10 @@ const Register = () => {
     const handleRegistration = (e) => {
         console.log(name, email, password);
         e.preventDefault();
-        registrationUsingEmailPassword(name, email, password); 
+        registrationUsingEmailPassword(name, email, password)
+        .then(result => {
+            history.push(redirect_uri);
+        })
     }
     return (
             <Container>
