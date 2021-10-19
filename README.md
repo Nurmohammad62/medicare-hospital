@@ -1,3 +1,9 @@
+1. This is a Healthcare project
+2. A client can take any service
+3. There are 6 tipes of services the company
+4. Clients can book services online from home
+5. It's a user familiar website
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
