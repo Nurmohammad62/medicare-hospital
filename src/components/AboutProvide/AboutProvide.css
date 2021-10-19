@@ -1,0 +1,11 @@
+.provide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.provide img{
+    width: 100%;
+    height: auto;
+}

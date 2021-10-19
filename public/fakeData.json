@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "title": "Ambulatory Care",
+        "img": "https://www.temos-worldwide.com/img/Services/QiIPC_Hospital_PrimaryCare_EiMT/shutterstock_1718117674_b_1.jpg",
+        "description": "Hospitalization for an ambulatory care sensitive conditions is considered to be a measure of access to appropriate primary health care, including preventive and disease management services. While not all admissions for these conditions are avoidable, appropriate ambulatory care could help prevent their onset, control an acute episode, or manage a chronic disease or condition. For Medicaid-covered and uninsured U.S. hospital stays in 2012, six of the top ten diagnoses were ambulatory care sensitive conditions.",
+        "charge": "$250"
+    },
+    {
+        "id":2,
+        "title": "Laboratory",
+        "img": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/11/07/752098-laboratory-thinkstock.jpg",
+        "description": "Our medical laboratories vary in size and complexity and so offer a variety of testing services. More comprehensive services can be found in acute-care hospitals and medical centers, where 70% of clinical decisions are based on laboratory testing.[2] Doctors offices and clinics, as well as skilled nursing and long-term care facilities, may have laboratories that provide more basic testing services. Commercial medical laboratories operate as independent businesses and provide testing that is otherwise not provided in other settings due to low test volume or complexity.",
+        "charge": "$150"
+    },
+    {
+        "id":3,
+        "title": "Ambulance Service",
+        "img": "https://3.imimg.com/data3/GQ/EM/MY-8963348/ambulance-services-500x500.jpg",
+        "description": "We   provide  emergency   ambulance   service  to   people  with  acute   illness  and  pregnancy  in   Dhaka,  as  well  as Chattogram, Sylhet, Rajshahi, Khulna, Cumilla, Rangpur and all other major citites even in some rural areas in Bangladesh. We  have  trained  paramedics,  and  doctors  in  some cases, and a range of fully equipped ambulance vehicles. Our system operates in a  coordinated  partnership among various organizations provide high quality pre-hospital  medical  care.  Basic  life supports  are  provided  in  almost  every ambulance while advanced life support services  are  provided  by  several ambulance  services and all helicopter ambulance services in Bangladesh. These services provide cardiac monitoring, intravenous cannulation, and insert advanced airway system.Our lives are valuable. It is important to get ambulance service in the country, especially all parts of Dhaka. As Dhaka is the busiest and most crowded city, traffic makes it nearly impossible to reach destination, i.e. hospital or home. Our teams are expert enough to beat the traffic and reach to the patients’ home or to the hospital in a timely manner. You may feel comfortable about our arrangement as all the ambulances are full-furnished with necessary equipment, oxygen cylinders, wheel chairs, stretchers. Each ambulance has a neat and clean bed for the patients. There are comfortable seats for the companions of the patients. We are ready providing you the suitable ambulance service from one district to another.",
+        "charge": "$270"
+    },
+    {
+        "id":4,
+        "title": "Radiology",
+        "img": "https://connect.myesr.org/app/uploads/Header-radiology-workflow-scaled.jpg",
+        "description": "Interventional radiologists are doctors that use imaging such as CT, ultrasound, MRI, and fluoroscopy to help guide procedures. The imaging is helpful to the doctor when inserting catheters, wires, and other small instruments and tools into your body. This typically allows for smaller incisions (cuts).Doctors can use this technology to detect or treat conditions in almost any part of the body instead of directly looking inside of your body through a scope (camera) or with open surgery Interventional radiologists often are involved in treating cancers or tumors, blockages in the arteries and veins, fibroids in the uterus, back pain, liver problems, and kidney problems.The doctor will make no incision or only a very small one. You rarely need to stay in the hospital after the procedure. Most people need only moderate sedation (medicines to help you relax).",
+        "charge": "$170"
+    },
+    {
+        "id":5,
+        "title": "Emergency Care",
+        "img": "https://news.usc.edu/files/2020/12/ER-doctor-stress2-web-824x549.jpg",
+        "description": "Emergency Care is an essential part of the health system and serves as the first point of contact for many around the world. Especially when there are logistical or financial barriers to healthcare access, people may present for care only when symptomatic with acute illness or injury. In most cases, the ill and injured present to frontline providers responsible for the care of both children and adults with medical, surgical and obstetric emergencies, including injuries, communicable and noncommunicable diseases, and complications of pregnancy. Prioritizing an integrated approach to early recognition and resuscitation substantially reduces the morbidity and mortality associated with all of these conditions. Prehospital and facility-based emergency care is a high impact and cost-effective form of secondary prevention. Additionally, disease surveillance at facilities delivering emergency care is essential to guide primary prevention and outbreak response. The Disease Control Priorities project estimates that nearly half of deaths and over a third of disability in low and middle income countries could be addressed by the implementation of effective emergency care. The World Health Assembly has called on Member States to prioritise the establishment of integrated emergency and trauma care systems. Emergency, trauma and acute care services are an essential part of universal health coverage. WHO is dedicated to achieving universal access to emergency care for all persons.",
+        "charge": "$350"
+    },
+    {
+        "id":6,
+        "title": "Pharmacy",
+        "img": "https://pharmaceutical-journal.com/wp-content/uploads/2021/01/face-mask-pharmacy-pa-20-scaled.jpg",
+        "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs. The practice of pharmacy requires excellent knowledge of drugs, their mechanism of action, side effects, interactions, mobility and toxicity. At the same time, it requires knowledge of treatment and understanding of the pathological process. Some specialties of pharmacists, such as that of clinical pharmacists, require other skills, e.g. knowledge about the acquisition and evaluation of physical and laboratory data.The scope of pharmacy practice includes more traditional roles such as compounding and dispensing of medications, and it also includes more modern services related to health care, including clinical services, reviewing medications for safety and efficacy, and providing drug information. Pharmacists, therefore, are the experts on drug therapy and are the primary health professionals who optimize the use of medication for the benefit of the patients.",
+        "charge": "$150"
+    }
+]

@@ -1,0 +1,18 @@
+.about-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.about-section-1 img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:768px) {
+    .about-section-1{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
