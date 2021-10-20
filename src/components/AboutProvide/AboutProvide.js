@@ -2,6 +2,8 @@ import React from 'react';
 import './AboutProvide.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import provideImg from '../../imgaes/about/about-provide.png';
+
+// provide component for about page
 const AboutProvide = () => {
     return (
         <div>

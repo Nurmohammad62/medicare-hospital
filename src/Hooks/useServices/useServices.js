@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+// hook for use services
 const useServices = () => {
     const [services, setServices] = useState([]);
 

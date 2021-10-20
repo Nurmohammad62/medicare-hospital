@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import useServices from '../../Hooks/useServices/useServices';
 import Service from '../Service/Service';
 
+// services component for home services
 const Services = () => {
     const [services] = useServices();
     return (

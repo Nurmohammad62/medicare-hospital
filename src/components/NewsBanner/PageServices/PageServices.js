@@ -4,6 +4,7 @@ import useServices from '../../../Hooks/useServices/useServices';
 import Service from '../../Service/Service';
 import ServicesBanner from '../../ServicesBanner/ServicesBanner';
 
+// services component for services page
 const PageServices = () => {
     const [services] = useServices();
     return (

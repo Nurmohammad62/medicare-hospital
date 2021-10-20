@@ -3,6 +3,7 @@ import './Service.css';
 import { Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
+// single service component
 const Service = (props) => {
     const history = useHistory();
     const{id, title, img, description} = props.service;

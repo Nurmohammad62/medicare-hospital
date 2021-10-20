@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import aboutImg1 from '../../imgaes/about/about-img1.jpg'
 import AboutProvide from '../AboutProvide/AboutProvide';
 
+// about page component
 const About = () => {
     return (
         <div>

@@ -17,6 +17,7 @@ import AuthProvider from './context/AuthProvider';
 function App() {
   return (
     <div>
+      {/* All pages and components route */}
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>

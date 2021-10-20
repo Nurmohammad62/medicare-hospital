@@ -2,6 +2,7 @@ import React from 'react';
 import './Testimonials.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
+// Testimonial component for home page
 const Testimonials = () => {
     return (
         <>

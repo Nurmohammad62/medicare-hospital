@@ -8,6 +8,7 @@ import dr2 from '../../imgaes/Doctors/Dr-Marta-Stewart.jpg';
 import dr3 from '../../imgaes/Doctors/Dr-Sarah- Johnson.jpg';
 import dr4 from '../../imgaes/Doctors/Dr.-James-Allen.jpg';
 
+// doctors component for home page
 const Doctors = () => {
     const cellIcon = <FontAwesomeIcon icon={faMobileAlt} />;
     const gmailIcon = <FontAwesomeIcon icon={faEnvelope} />

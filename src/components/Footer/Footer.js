@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Footer component
 const Footer = () => {
     return (
         <div style={{backgroundColor:'#0D6EFD', textAlign:'center', padding:'50px 0', color:'#fff'}}>

@@ -7,12 +7,18 @@ import useAuth from '../../Hooks/useAuth/useAuth';
 
 const Header = () => {
     const history = useHistory();
-
     const {user, logOut} = useAuth();
+
+    // redirect to login
     const handleLogin = () => {
         history.push('/login');
     }
+    // redirect to register
+    const handleRegister = () => {
+        history.push('/register');
+    }
     return (
+        /* Navbar for main menu */
         <>
             <Navbar lapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
@@ -31,7 +37,11 @@ const Header = () => {
                         {user?.email ?
                         <Button onClick={logOut} variant="primary">Logout</Button>
                         :
-                        <Button variant="primary" onClick={handleLogin}>Login</Button>}
+                        <>
+                            <Button variant="primary" onClick={handleLogin}>Login</Button>
+                            <Button variant="warning" onClick={handleRegister}>Register</Button>
+                        </>  
+                            }
                     </ Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './NewsBanner.css';
 
+// banner component for news page
 const NewsBanner = () => {
     return (
         <div className='news-banner'>

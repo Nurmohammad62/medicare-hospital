@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import './Details.css';
 
+// Details component for service details page
 const Details = () => {
     const {serviceId} = useParams();
     const [serviceDetails, setServiceDetails] = useState([]);

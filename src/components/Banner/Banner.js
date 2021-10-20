@@ -4,6 +4,7 @@ import banner1 from '../../imgaes/banner/slide-01.jpg';
 import banner2 from '../../imgaes/banner/slide-02.jpg';
 import banner3 from '../../imgaes/banner/slide-03.jpg';
 
+// Banner component for home page
 const Banner = () => {
     return (
         <>

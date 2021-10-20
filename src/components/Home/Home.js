@@ -4,6 +4,7 @@ import Doctors from '../Doctors/Doctors';
 import Services from '../Services/Services';
 import Testimonials from '../Testimonials/Testimonials';
 
+//Home page
 const Home = () => {
     return (
         <div>

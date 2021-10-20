@@ -6,6 +6,7 @@ import news2 from '../../imgaes/news/news2.jpg';
 import news3 from '../../imgaes/news/news3.jpg';
 import NewsBanner from '../NewsBanner/NewsBanner';
 
+// news component for news page
 const News = () => {
     return (
         <div>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth/useAuth';
 
-
+// Register page
 const Register = () => {
     const {registrationUsingEmailPassword, signInUsingGoogle, error, setError} = useAuth();
     const [name, setName] = useState('');
@@ -14,16 +14,19 @@ const Register = () => {
     const location = useLocation();
     const redirect_uri = location.state?.from || '/home';
 
+    // get name from name field
     const handleName = (e) => {
         setName(e.target.value);
     }
+    // get email from email field
     const handleEmail = (e) => {
         setEmail(e.target.value);
     }
-
+    // get password from password firld
     const handlePassword = e => {
         setPassword(e.target.value);
     }
+    // regitration method to handle registration
     const handleRegistration = (e) => {
         console.log(name, email, password);
         e.preventDefault();
@@ -33,6 +36,7 @@ const Register = () => {
         })
     }
     return (
+            // registration form
             <Container>
                 <Row>
                     <Col className='mx-auto' lg={4}>

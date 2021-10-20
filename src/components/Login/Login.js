@@ -11,6 +11,8 @@ const Login = () => {
     const location = useLocation()
     const history = useHistory()
     const redirect_uri = location.state?.from || '/home';
+
+    // handle login using google function
     const handleGoogleSignIn = () => {
         signInUsingGoogle()
         .then(result => {
@@ -21,14 +23,17 @@ const Login = () => {
         })
     }
 
+    // get email from email field
     const handleEmail = (e) => {
         setEmail(e.target.value);
     }
 
+    // get password from password field
     const handlePassword = (e) => {
         setPassword(e.target.value);
     }
 
+    // login method using email and password
     const handleLogin = (e) => {
         e.preventDefault();
         loginUsingEmailPassword(email, password)
@@ -37,6 +42,7 @@ const Login = () => {
         })
     }
     return (
+        // Login form for login page
         <Container>
             <Row>
                 <Col className='mx-auto' lg={4}>
